@@ -1,9 +1,15 @@
 
 //Init function
 window.onload = function(){
+	//retrieve map for drawing
+	var mapobj = document.getElementById("map");
+	map = mapobj.getContext("2d");
+	
+	//set default active module
 	active = document.getElementById("main");
 	active.style.display = "block";
 	
+	//set methods for view-changing
 	var links = document.getElementById("navbar").getElementsByTagName("a");
 	for(var i = 0; i < links.length; i++)
 		links[i].onclick = function() { setView(this.getAttribute("href").substring(1)); };
