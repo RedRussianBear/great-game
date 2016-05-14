@@ -1,0 +1,43 @@
+THE GREAT GAME DESIGN DOC
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Game Design#
+	-Concept: The year is 1885. The Great Powers of Europe vie for dominance across the world. Great armies are massed, navies built, and colonies consolidated. But behind the outward shows of modern power, a different war is being fought.
+	 All of the posturing of the Great Nations, the conquests and expeditions is kept from a great conflagration by a shadow network of spies, informants, saboteurs, and other agents employed by the States, each vying for a leg up on the others, seeking to disturb the balance one bit at a time.
+	 And this whole web of clandestine activity, every strand, leads to one city: London. The beating heart of this new world of steel and smoke, London crawls with all of the unsavoury characters who seek to win their hand in the Game.
+	 And you, dear reader, have been dealt in.
+	-Goal: Accrue funds and prestige in the world of clandestine affairs by fulfilling tasks for the Great Powers and engaging in one's own surreptitious activities.
+	-Mechanics:
+		-Identification:
+			-Each agent has a journal of known contacts, including other agents
+			-Contacts can have varying levels of information available
+			-Agents should use monikers to make it harder to communicate in person
+		-Communication:
+			-Leaving messages at drop locations (in the form of files)
+			-Telegrams sent to lodgings (can be intercepted or monitored)
+			-In person communication
+		-Factions:
+			-Kingdom of Great Britain:
+			-Empire of Russia: 
+			-Third French Republic:
+			-German Reich:
+		-Finances & the City:
+			-Each agent has finances which they use to pay rent, living costs, bribes, etc.
+			-Agents reside at lodgings, which can confer certain benefits based on their location
+			-The City is represented with a map on the website describing locations of drop sites, lodgings, clues, and other points of interest
+		-Missions:
+			-Spy-masters put out a call for a certain piece of information
+			-Information is held by one of the other factions
+			-Agents must acquire information, which will often be ciphered or cryptic, solve it, and report
+			-The first to report will be rewarded
+		-Hostility:
+			-If a faction finds that they are being double-crossed, or discovers an opposing agent, and they have evidence of criminality, they may be
+			-Turned over to the constabulary
+			-Assets seized
+			-Contacts severed
+
+#Front End#
+	-
+	
+#Back End#
+	-
