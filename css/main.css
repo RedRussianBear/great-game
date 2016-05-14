@@ -27,4 +27,20 @@ img{
 /*
  * General sections
  */
+ 
+#content{
+	width: 80%;
+	margin: auto;
+}
 
+#navbar{
+	width: 100%;
+}
+
+/*
+ * Game Modules
+ */
+
+.module{
+	display: none;
+}

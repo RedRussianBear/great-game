@@ -1,44 +1,58 @@
 <html>
 	<head>
 		<title>The Great Game</title>
+		<!--CSS!-->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/main.css">
+		<!--JAVASCRIPT!-->
 		<script src="js/jquery-2.2.3.min.js"></script>
-		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
 	</head>
 
 	<body>
-		
-		<div id="container">
-			<!--BEGIN NAVBAR!-->
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div id="navbar">
-						<ul>
-							<li><a>Main</a></li>
-							<li><a>Communications</a></li>
-							<li><a>Inventory</a></li>
-						</ul>
+		<div id="content">
+			<div id="container">
+				<!--BEGIN NAVBAR!-->
+				<div id="navbar">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#main">Main</a></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#communications">Communications</a></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#surveillance">Surveillance</a></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#inventory">Inventory</a></div>
 					</div>
 				</div>
+				<!--END NAVBAR!-->
+				
+				<!--BEGIN CONTENT!-->
+				<div class="row">
+					
+					<div class="module" id="main">
+						
+						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" id="map">
+						</div>
+						
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						</div>
+					
+					</div>
+					
+					<div class="module" id="communications">
+					nah
+					</div>
+					
+					<div class="module" id="surveillance">
+					ha
+					</div>
+					
+					<div class="module" id="inventory">
+					lel
+					</div>
+					
+				</div>
+				<!--END CONTENT!-->
 			</div>
-			<!--END NAVBAR!-->
-			
-			<!--BEGIN CONTENT!-->
-			<div class="row">
-				
-				<div class="module" id="main">
-				</div>
-				
-				<div class="module" id="communications">
-				</div>
-				
-				<div class="module" id="inventory">
-				</div>
-				
-			</div>
-			<!--END CONTENT!-->
 		</div>
 		
 	</body>
