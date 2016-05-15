@@ -39,6 +39,11 @@ h1, h2, h3, h4, h5, h6{
 	font-family: Typewriter;
 }
 
+h1{
+	font-size: 18pt;
+	font-weight: bold;
+}
+
 /*
  * General sections
  */
@@ -48,6 +53,10 @@ h1, h2, h3, h4, h5, h6{
 	margin: auto;
 	margin-bottom: 2em;
 }
+
+/*
+ * Navbar
+ */
 
 #navbar{
 	font-family: Typewriter;
@@ -59,11 +68,20 @@ h1, h2, h3, h4, h5, h6{
 	padding-top: 0.7em;
 	border: 1pt solid #3F3F3F;
 	border-top: none;
+	color: white;
 }
 
 #navbar a{
 	color: white;
 }
+
+#navbar-right{
+	margin-top: .2em;
+}
+
+/*
+ * Footer
+ */
 
 #footer{
 	position: fixed;
