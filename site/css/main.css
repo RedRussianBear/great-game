@@ -25,8 +25,10 @@ html, body, div, span, applet, h1, h2, h3, h4, h5, h6, p, a, img{
 }
 
 body{
+	background-color: #020202;
 	overflow-x: hidden;
 	font-size: 13pt;
+	font-family: sans-serif;
 }
 
 img{
@@ -50,25 +52,39 @@ h1, h2, h3, h4, h5, h6{
 	font-family: Typewriter;
 	font-size: 14pt;
 	text-align: center;
-	width: 100%;
-	background-color: black;
+	background: #222222;
 	margin-bottom: 1em;
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
+	border: 1pt solid #3F3F3F;
+	border-top: none;
 }
 
 #navbar a{
 	color: white;
 }
 
+#footer{
+	background: #222222;
+	margin-top: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	border: 1pt solid #3F3F3F;
+	border-bottom: none;
+}
+
 /*
- * General Game Modules
+ * General Game Module Styling
  */
 
 .module{
 	display: none;
 	overflow: auto;
+	background-color: #FFFFFF;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
+
 
 /*
  * Main Module
@@ -83,4 +99,6 @@ h1, h2, h3, h4, h5, h6{
 	height: 48vw;
 	margin: auto;
 	border: 1px solid black;
+	padding: 0;
+	margin: 0;
 }
