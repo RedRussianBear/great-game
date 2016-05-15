@@ -26,6 +26,7 @@ html, body, div, span, applet, h1, h2, h3, h4, h5, h6, p, a, img{
 
 body{
 	overflow-x: hidden;
+	font-size: 13pt;
 }
 
 img{
@@ -66,6 +67,7 @@ h1, h2, h3, h4, h5, h6{
 
 .module{
 	display: none;
+	overflow: auto;
 }
 
 /*

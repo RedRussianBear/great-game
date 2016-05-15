@@ -21,3 +21,16 @@ function setView(view){
 	active = document.getElementById(view);
 	active.style.display = "block";
 }
+
+function loadInventory(username){
+	var xhttp = new XMLHttpRequest();
+	
+	xhttp.onreadystatechange = function() {
+		if (xhttp.readyState == 4 && xhttp.status == 200) {
+			document.getElementById("inventory-menu").innerHTML = xhttp.responseText;
+		}
+	};
+	
+	xhttp.open("GET", "inventory.php?user=" + username, true);
+	xhttp.send();
+}
